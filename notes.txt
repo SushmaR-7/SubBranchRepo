@@ -1,0 +1,13 @@
+Create branch:
+git branch branchName
+ex:git branch dev1
+
+
+
+change the branch:
+git checkout branchName
+git checkout dev1
+
+checkout:used to change the path main to dev1
+/Desktop/git hub/DemoRepo (main)
+/Desktop/git hub/DemoRepo (dev1)
