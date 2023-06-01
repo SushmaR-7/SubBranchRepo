@@ -15,3 +15,21 @@ git checkout dev1
 checkout:used to change the path main to dev1
 /Desktop/git hub/DemoRepo (main)
 /Desktop/git hub/DemoRepo (dev1)
+
+--------------------------------------------------------------
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (main)
+$ git branch dev1
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (main)
+$ git branch
+  dev1
+* main
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (main)
+$ git checkout dev1
+Switched to branch 'dev1'
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (dev1)
+$
+
