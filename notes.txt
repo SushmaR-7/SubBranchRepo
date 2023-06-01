@@ -1,3 +1,7 @@
+first clone git clone (ssh key)
+
+open git bash inside the sub brach
+
 Create branch:
 git branch branchName
 ex:git branch dev1
