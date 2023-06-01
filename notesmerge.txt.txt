@@ -1,0 +1,90 @@
+Create branch:
+git branch branchName
+ex:git branch dev1
+
+
+
+change the branch:
+git checkout branchName
+git checkout dev1
+
+checkout:used to change the path main to dev1
+/Desktop/git hub/DemoRepo (main)
+/Desktop/git hub/DemoRepo (dev1)
+
+first clone git clone (ssh key)
+
+open git bash inside the sub brach
+
+Create branch:
+git branch branchName
+ex:git branch dev1
+
+
+
+change the branch:
+git checkout branchName
+git checkout dev1
+
+checkout:used to change the path main to dev1
+/Desktop/git hub/DemoRepo (main)
+/Desktop/git hub/DemoRepo (dev1)
+
+--------------------------------------------------------------
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (main)
+$ git branch dev1
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (main)
+$ git branch
+  dev1
+* main
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (main)
+$ git checkout dev1
+Switched to branch 'dev1'
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (dev1)
+$
+------------------------------------------------------------------
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (dev1)
+$ git add -A
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (dev1)
+$ git commit -m"done"
+[dev1 a1ebecf] done
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt.txt
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (dev1)
+$ git push
+fatal: The current branch dev1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev1
+    
+    copy this command and paste
+    
+    
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchRepo (dev1)
+$  git push --set-upstream origin dev1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev1' on GitHub by visiting:
+remote:      https://github.com/SushmaR-7/SubBranchRepo/pull/new/dev1
+remote:
+To github.com:SushmaR-7/SubBranchRepo.git
+ * [new branch]      dev1 -> dev1
+branch 'dev1' set up to track 'origin/dev1'.
+
